@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.adminwavesoffood'
+    namespace 'com.pradeep.adminvcanteen'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.adminwavesoffood"
+        applicationId "com.pradeep.adminvcanteen"
         minSdk 24
         targetSdk 33
         versionCode 1
