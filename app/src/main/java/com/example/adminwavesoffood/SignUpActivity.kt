@@ -21,7 +21,7 @@ class SignUpActivity : AppCompatActivity() {
             val intent= Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }
-        val locationList= listOf("Islamabad","Lahore","Karachi","Faisalabad")
+        val locationList= listOf("K. G. Mittal College")
         val adapter=ArrayAdapter(this,android.R.layout.simple_list_item_1,locationList)
         val autoCompleteTextView=binding.listofLocation
         autoCompleteTextView.setAdapter(adapter)
